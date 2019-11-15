@@ -16,21 +16,21 @@ int main()
 
 	do
 	{
-		cout << "            ÈÃÐÀ  ÍÀÏÅÐÑÒÊÈ                   " << endl;
+		cout << "               Thimblerig                   " << endl;
 		cout << endl;
 		cout << "   $$$$$         $$$$$         $$$$$          " << endl;
 		cout << "  $$$$$$$       $$$$$$$       $$$$$$$         " << endl;
 		cout << " $$$$$$$$$     $$$$$$$$$     $$$$$$$$$        " << endl;
 		cout << "$$$$$$$$$$$   $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
 		cout << endl;
-		cout << "Êðó÷ó âåð÷ó, çàïóòàòü õî÷ó" << endl;
-		cout << "Ãäå íàõîäèòñÿ øàð?" << endl;
+		cout << endl;
+		cout << "What thimble is the ball in?" << endl;
 		cin >> choise;
 		system("cls");
 
 		srand(time(0));
 		ball = rand() % 3 + 1;
-		cout << "            ØÀÐ Â " << ball << " ÍÀÏÅÐÑÒÊÅ!!!" << endl;
+		cout << "           BALL IN " << ball << " THIMBLE!!!" << endl;
 		cout << endl;
 		cout << endl;
 		if (ball == 1) {
@@ -43,7 +43,7 @@ int main()
 				cout << "    $$        $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "  :) ÏÎÇÄÐÀÂËßÅÌ!!!! ÂÛ ÍÀØËÈ ØÀÐÈÊ!!!!! :)" << endl;
+				cout << "   :) CONGRATULATIONS YOU WON!!!!! :)" << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -56,7 +56,7 @@ int main()
 				cout << "              $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "    Ê ÑÎÆÀËÅÍÈÞ ÂÛ ÍÅ ÍÀØËÈ ØÀÐÈÊ :( " << endl;
+				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -69,7 +69,7 @@ int main()
 				cout << "              $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "    Ê ÑÎÆÀËÅÍÈÞ ÂÛ ÍÅ ÍÀØËÈ ØÀÐÈÊ :( " << endl;
+				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -85,7 +85,7 @@ int main()
 				cout << "$$$$$$$$$$$        $$       $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "  :) ÏÎÇÄÐÀÂËßÅÌ!!!! ÂÛ ÍÀØËÈ ØÀÐÈÊ!!!!! :)" << endl;
+				cout << "   :) CONGRATULATIONS YOU WON!!!!! :)" << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -98,7 +98,7 @@ int main()
 				cout << "$$$$$$$$$$$                 $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "    Ê ÑÎÆÀËÅÍÈÞ ÂÛ ÍÅ ÍÀØËÈ ØÀÐÈÊ :( " << endl;
+				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -111,7 +111,7 @@ int main()
 				cout << "$$$$$$$$$$$                 $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "    Ê ÑÎÆÀËÅÍÈÞ ÂÛ ÍÅ ÍÀØËÈ ØÀÐÈÊ :( " << endl;
+				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -127,7 +127,7 @@ int main()
 				cout << "$$$$$$$$$$$   $$$$$$$$$$$       $$            " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "  :) ÏÎÇÄÐÀÂËßÅÌ!!!! ÂÛ ÍÀØËÈ ØÀÐÈÊ!!!!! :)" << endl;
+				cout << "   :) CONGRATULATIONS YOU WON!!!!! :)" << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -140,7 +140,7 @@ int main()
 				cout << "$$$$$$$$$$$   $$$$$$$$$$$                     " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "    Ê ÑÎÆÀËÅÍÈÞ ÂÛ ÍÅ ÍÀØËÈ ØÀÐÈÊ :( " << endl;
+				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
 				cout << endl;
 				cout << endl;
 			}
@@ -153,16 +153,16 @@ int main()
 				cout << "$$$$$$$$$$$   $$$$$$$$$$$                     " << endl;
 				cout << endl;
 				cout << endl;
-				cout << "    Ê ÑÎÆÀËÅÍÈÞ ÂÛ ÍÅ ÍÀØËÈ ØÀÐÈÊ :( " << endl;
+				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
 				cout << endl;
 				cout << endl;
 			}
 		}
 
 		else {
-			cout << "âû ñëîìàëè ïðîãðàììó..." << endl;
+			cout << "You are destroy my programm... pls tell me about this (skype: avb-89) Thanks ^^" << endl;
 		}
-		cout << "Äëÿ âûõîäà âûáåðåòå 4" << endl;
+		cout << "To exit, press 4" << endl;
 		cout << endl;
 		system("pause");
 		system("cls");
