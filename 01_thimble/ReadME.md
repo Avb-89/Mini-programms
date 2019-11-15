@@ -1,9 +1,12 @@
 # Thumble
 
-Игра в наперстки. Построена на if else. 
-Сама программа находится в папке Mini-programms/01_thimble/APP/
+Thimblerig. Built on if/else.
+The program is located in the folder Mini-programsms / 01_thimble / APP /
 
-В обновлении v.1.0  добавлено:
-- программа в цикле
-- изменены сообщения на более заметные
-- добавлена возможность выхода из программы (введя 4)
+In v.1.0 update, added:
+- program in a cycle
+(the program is closes after winning / losing)
+- changed messages to more noticeable
+(messages were less noticeable)
+- the ability to exit the program (by entering 4)
+(when starting from the console, except for ctrl-c,  can`t exit it)
