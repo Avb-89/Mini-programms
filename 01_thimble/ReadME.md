@@ -3,6 +3,9 @@
 Thimblerig. Built on if/else.
 The program is located in the folder Mini-programsms / 01_thimble / APP /
 
+In v 1.2 update:
+- fix bug openning wrong thumble
+
 In v 1.1 update:
 - translate program on English
 

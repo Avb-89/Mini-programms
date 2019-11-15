@@ -16,17 +16,18 @@ int main()
 
 	do
 	{
-		cout << "               Thimblerig                   " << endl;
-		cout << endl;
-		cout << "   $$$$$         $$$$$         $$$$$          " << endl;
-		cout << "  $$$$$$$       $$$$$$$       $$$$$$$         " << endl;
-		cout << " $$$$$$$$$     $$$$$$$$$     $$$$$$$$$        " << endl;
-		cout << "$$$$$$$$$$$   $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
-		cout << endl;
-		cout << endl;
-		cout << "What thimble is the ball in?" << endl;
-		cin >> choise;
-		system("cls");
+			cout << "               Thimblerig                   " << endl;
+			cout << endl;
+			cout << "   $$$$$         $$$$$         $$$$$          " << endl;
+			cout << "  $$$$$$$       $$$$$$$       $$$$$$$         " << endl;
+			cout << " $$$$$$$$$     $$$$$$$$$     $$$$$$$$$        " << endl;
+			cout << "$$$$$$$$$$$   $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
+			cout << endl;
+			cout << endl;
+			cout << "What thimble is the ball in?" << endl;
+			cin >> choise;
+			system("cls");
+		
 
 		srand(time(0));
 		ball = rand() % 3 + 1;
@@ -48,12 +49,12 @@ int main()
 				cout << endl;
 			}
 			else if (choise == 2) {
-				cout << "   $$$$$                                      " << endl;
-				cout << "  $$$$$$$                                     " << endl;
-				cout << " $$$$$$$$$       $$$$$         $$$$$          " << endl;
-				cout << "$$$$$$$$$$$     $$$$$$$       $$$$$$$         " << endl;
-				cout << "               $$$$$$$$$     $$$$$$$$$        " << endl;
-				cout << "              $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
+				cout << "                 $$$$$                        " << endl;
+				cout << "                $$$$$$$                       " << endl;
+				cout << "   $$$$$       $$$$$$$$$       $$$$$          " << endl;
+				cout << "  $$$$$$$     $$$$$$$$$$$     $$$$$$$         " << endl;
+				cout << " $$$$$$$$$                   $$$$$$$$$        " << endl;
+				cout << "$$$$$$$$$$$                 $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
 				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
@@ -61,12 +62,12 @@ int main()
 				cout << endl;
 			}
 			else {
-				cout << "   $$$$$                                      " << endl;
-				cout << "  $$$$$$$                                     " << endl;
-				cout << " $$$$$$$$$       $$$$$         $$$$$          " << endl;
-				cout << "$$$$$$$$$$$     $$$$$$$       $$$$$$$         " << endl;
-				cout << "               $$$$$$$$$     $$$$$$$$$        " << endl;
-				cout << "              $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
+				cout << "                               $$$$$          " << endl;
+				cout << "                              $$$$$$$         " << endl;
+				cout << "   $$$$$         $$$$$       $$$$$$$$$        " << endl;
+				cout << "  $$$$$$$       $$$$$$$     $$$$$$$$$$$       " << endl;
+				cout << " $$$$$$$$$     $$$$$$$$$                      " << endl;
+				cout << "$$$$$$$$$$$   $$$$$$$$$$$                     " << endl;
 				cout << endl;
 				cout << endl;
 				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
@@ -90,12 +91,12 @@ int main()
 				cout << endl;
 			}
 			else if (choise == 1) {
-				cout << "                 $$$$$                        " << endl;
-				cout << "                $$$$$$$                       " << endl;
-				cout << "   $$$$$       $$$$$$$$$       $$$$$          " << endl;
-				cout << "  $$$$$$$     $$$$$$$$$$$     $$$$$$$         " << endl;
-				cout << " $$$$$$$$$                   $$$$$$$$$        " << endl;
-				cout << "$$$$$$$$$$$                 $$$$$$$$$$$       " << endl;
+				cout << "   $$$$$                                      " << endl;
+				cout << "  $$$$$$$                                     " << endl;
+				cout << " $$$$$$$$$       $$$$$         $$$$$          " << endl;
+				cout << "$$$$$$$$$$$     $$$$$$$       $$$$$$$         " << endl;
+				cout << "               $$$$$$$$$     $$$$$$$$$        " << endl;
+				cout << "              $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
 				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
@@ -103,12 +104,12 @@ int main()
 				cout << endl;
 			}
 			else {
-				cout << "                 $$$$$                        " << endl;
-				cout << "                $$$$$$$                       " << endl;
-				cout << "   $$$$$       $$$$$$$$$       $$$$$          " << endl;
-				cout << "  $$$$$$$     $$$$$$$$$$$     $$$$$$$         " << endl;
-				cout << " $$$$$$$$$                   $$$$$$$$$        " << endl;
-				cout << "$$$$$$$$$$$                 $$$$$$$$$$$       " << endl;
+				cout << "                               $$$$$          " << endl;
+				cout << "                              $$$$$$$         " << endl;
+				cout << "   $$$$$         $$$$$       $$$$$$$$$        " << endl;
+				cout << "  $$$$$$$       $$$$$$$     $$$$$$$$$$$       " << endl;
+				cout << " $$$$$$$$$     $$$$$$$$$                      " << endl;
+				cout << "$$$$$$$$$$$   $$$$$$$$$$$                     " << endl;
 				cout << endl;
 				cout << endl;
 				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
@@ -132,12 +133,12 @@ int main()
 				cout << endl;
 			}
 			else if (choise == 1) {
-				cout << "                               $$$$$          " << endl;
-				cout << "                              $$$$$$$         " << endl;
-				cout << "   $$$$$         $$$$$       $$$$$$$$$        " << endl;
-				cout << "  $$$$$$$       $$$$$$$     $$$$$$$$$$$       " << endl;
-				cout << " $$$$$$$$$     $$$$$$$$$                      " << endl;
-				cout << "$$$$$$$$$$$   $$$$$$$$$$$                     " << endl;
+				cout << "   $$$$$                                      " << endl;
+				cout << "  $$$$$$$                                     " << endl;
+				cout << " $$$$$$$$$       $$$$$         $$$$$          " << endl;
+				cout << "$$$$$$$$$$$     $$$$$$$       $$$$$$$         " << endl;
+				cout << "               $$$$$$$$$     $$$$$$$$$        " << endl;
+				cout << "              $$$$$$$$$$$   $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
 				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
@@ -145,12 +146,12 @@ int main()
 				cout << endl;
 			}
 			else {
-				cout << "                               $$$$$          " << endl;
-				cout << "                              $$$$$$$         " << endl;
-				cout << "   $$$$$         $$$$$       $$$$$$$$$        " << endl;
-				cout << "  $$$$$$$       $$$$$$$     $$$$$$$$$$$       " << endl;
-				cout << " $$$$$$$$$     $$$$$$$$$                      " << endl;
-				cout << "$$$$$$$$$$$   $$$$$$$$$$$                     " << endl;
+				cout << "                 $$$$$                        " << endl;
+				cout << "                $$$$$$$                       " << endl;
+				cout << "   $$$$$       $$$$$$$$$       $$$$$          " << endl;
+				cout << "  $$$$$$$     $$$$$$$$$$$     $$$$$$$         " << endl;
+				cout << " $$$$$$$$$                   $$$$$$$$$        " << endl;
+				cout << "$$$$$$$$$$$                 $$$$$$$$$$$       " << endl;
 				cout << endl;
 				cout << endl;
 				cout << "      YOU DO NOT FIND THE BALL :( " << endl;
@@ -166,6 +167,6 @@ int main()
 		cout << endl;
 		system("pause");
 		system("cls");
-	} while (choise < 4);
+	} while (choise == 1 || choise == 2 || choise == 3);
 	return 0;
 }
